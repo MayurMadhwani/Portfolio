@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="lens.jpeg" style="border-radius: 100%;">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+
+    <script src="https://kit.fontawesome.com/a52d0374f6.js" crossorigin="anonymous"></script>
+  
+    <!--Bootstrap scripts-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <title>Portfolio</title>
+</head>
+
+<!-- Body -->
+
+
+<body>
+    <section class="colored" id="top">
+
+        <div class="container-fluid">
+            
+            <!-- Nav Bar -->
+            
+            <nav class="navbar navbar-expand-lg navbar-dark" style="color: #D4ECDD;">
+                <a class="nav-h navbar-brand" href="#" style="font-size: 350%; color: #D4ECDD;">Portfolio</a>
+                
+                <button class="nav-h navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-bs-controls="navbarNavAltMarkup" aria-bs-expanded="false" aria-bs-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <ul class="nav-h navbar-nav ms-auto">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#middle">Explore</a>
+                    </li>
+                    <li class=" nav-item">
+                      <a class="nav-link" href="#bottom">Connect</a>
+                    </li>
+
+                  </ul>
+                </div>
+                
+              </nav>
+            <!-- First Screen -->
+            
+            <div class="row">
+
+              <div class="aboutme col-lg-6 col-md-12">
+                <h1 class="abouth">About Me</h1>
+                <p class="about">Hey there! I'm Mayur Madhwani a Photographer & a Programmer.
+                  I've been a Professional Photographer during my college days, currently I'm learning DSA & Web Dev. It's been a great journey till now & very excited for the coming adventures and would love to learn new things.</p>
+                <p class="about">You can check out the work that I've done, below.</p>
+              </div>
+
+              <div class="img col-lg-6 col-md-12">
+                <img class="dp" src="images/dp.jpg" alt="iphone-mockup">
+              </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Middle -->
+    <section id="middle">
+      <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner" >
+
+          <div class="carousel-item active ">
+            <img src="car/1.jpeg" class="midimage" alt="...">
+          </div>
+          
+          <div class="carousel-item">
+            <img src="car/2.jpeg" class="midimage" alt="...">
+          </div>
+          
+          <div class="carousel-item">
+            <img src="car/3.jpeg" class="midimage" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="car/4.jpeg" class="midimage" alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" style="color: black;">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Bottom -->
+
+    <section id="bottom">
+        <div class="container-fluid">
+
+          <h2 style="color: #D4ECDD; padding-top: 20px; font-family: 'Open Sans Condensed'; ">Connect</h2>
+          
+          <a href="https://www.facebook.com/mayurmadhwani03/">
+            <i class="social-icon fa-2x fab fa-facebook-f"></i>
+          </a>
+          
+          <a href="https://www.instagram.com/mayur_madhwani03/">
+            <i class="social-icon fa-2x fab fa-instagram"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/mayur-madhwani/">
+            <i class="social-icon fa-2x fab fa-linkedin-in"></i>
+          </a>
+      
+        </div>
+    </section>
+
+</body>
+</html>
